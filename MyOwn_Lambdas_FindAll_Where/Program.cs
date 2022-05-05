@@ -19,7 +19,7 @@ namespace MyOwn_Lambdas_FindAll_Where
             List<int> evenList = startList.FindAll((int x) => x % 2 == 0);
 
             // Find all odd numbers - another solution
-            List<int> oddList = startList.Where(x => x % 2 == 0).ToList();
+            List<int> oddList = startList.Where(x => x % 2 == 1).ToList();
 
             Console.WriteLine("evenList is:");
             foreach (var item in evenList)
